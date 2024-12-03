@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\github\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj": {}
+    "D:\\github\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj": {}
   },
   "projects": {
-    "d:\\github\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj": {
+    "D:\\github\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\github\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj",
+        "projectUniqueName": "D:\\github\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj",
         "projectName": "BibliotecaAPI",
-        "projectPath": "d:\\github\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj",
+        "projectPath": "D:\\github\\BibliotecaAPI\\BibliotecaAPI\\BibliotecaAPI.csproj",
         "packagesPath": "C:\\Users\\wleic\\.nuget\\packages\\",
-        "outputPath": "d:\\github\\BibliotecaAPI\\BibliotecaAPI\\obj\\",
+        "outputPath": "D:\\github\\BibliotecaAPI\\BibliotecaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wleic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.6, )"
